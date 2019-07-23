@@ -13,7 +13,7 @@
 
     <groupId>org.graylog.plugins</groupId>
     <artifactId>graylog-plugin-kafka</artifactId>
-    <version>0.8.3-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>${project.artifactId}</name>

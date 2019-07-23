@@ -96,7 +96,7 @@ public class KafkaOutput implements MessageOutput {
             if (e != null) {
                 LOG.error("Error during publish to topic {} ", topic, e);
             } else {
-                LOG.info("Send message {} to  topic {} partition {} with offset {} ", message.getMessage(), topic, recordMetaData.partition(), recordMetaData.offset());
+//                LOG.info("Send message {} to  topic {} partition {} with offset {} ", message.getMessage(), topic, recordMetaData.partition(), recordMetaData.offset());
             }
         });
 
