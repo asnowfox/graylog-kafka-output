@@ -26,12 +26,12 @@ public class KafkaMetaData implements PluginMetaData {
 
     @Override
     public String getAuthor() {
-        return "fbalicchia <fbalicchia@gmail.com>";
+        return "Debasish Misra <debasishmisra3008@gmail.com>";
     }
 
     @Override
     public URI getURL() {
-        return URI.create("https://github.com/fbalicchia/graylog-plugin-kafka-inout.git");
+        return URI.create("https://github.com/Microland/graylog-kafka-output.git");
     }
 
     @Override
